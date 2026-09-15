@@ -1,5 +1,4 @@
 class Solution {
-    HashSet<Integer> set = new HashSet<>();
     public void getAllCombinations(int[] arr, int target, int idx, List<List<Integer>> ans, List<Integer> comb){
         if(idx==arr.length || target<0){
             return;
