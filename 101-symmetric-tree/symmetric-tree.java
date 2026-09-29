@@ -6,6 +6,7 @@ class Solution {
         return false;
     }
     public boolean isSymmetric(TreeNode root) {
+        if(root==null) return true;
       return check(root.left,root.right);
     }
 }
