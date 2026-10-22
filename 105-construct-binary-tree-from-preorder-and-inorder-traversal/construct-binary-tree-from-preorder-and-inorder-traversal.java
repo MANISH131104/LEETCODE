@@ -1,10 +1,7 @@
-
 class Solution {
     int idx = 0;
-
     public TreeNode solve(int[] preorder, int[] inorder, int start, int end) {
         if (start > end) return null;
-
         int rootVal = preorder[idx++];
         TreeNode root = new TreeNode(rootVal);
 
